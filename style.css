@@ -1,0 +1,106 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 970px;
+ margin: 0px auto;
+ padding: 10px;
+ background-color: #1b345d; /* light navy blue */
+}
+#header{
+ border-radius: 8px;
+ margin: 0px;
+ height: 70px;
+ background-color: #ce3036; /* red */
+}
+#navigation{
+ display: inline-block;
+ vertical-align: top;
+ border-radius: 18px;
+ margin-right: 8px;
+ margin-top: 18px;
+ height: 215px;
+ width: 190px;
+ padding: 18px;
+ background-color: #2a7c8c; /* sea blue */
+ box-sizing: border-box;
+}
+#main_content{
+ display: inline-block;
+ border-radius: 18px;
+ margin-top: 18px;
+ margin-left: 8px;
+ width: 760px;
+ height: 450px;
+ padding: 28px 18px;
+ background-color: #0e1822; /* dark gray */ 
+ box-sizing: border-box;
+}
+h2 {
+	color: #c2d7eb;
+	font-size: 1.3em;
+}
+p {
+	color: #c2d7eb;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-top: 8px;
+}
+#main_text a{
+	color: #53c1c9;
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 12pt;
+}
+#main_text li{
+	color: #b1cde0;
+	font-size: 10pt;
+	font-weight: bold;
+	list-style-position: inside;
+	margin-top: 8px;
+	margin-left: 16px;
+	text-indent: -14px; /*is there an easier/other way to align the text after the bullet with the text underneath? */
+}
+.bodytext{
+	margin-left: 4px;
+}
+#advertisement{
+ padding-top: 11px;
+ padding-left: 20px;
+ border-radius: 18px;
+ margin-top: 14px;
+ height: 55px;
+ background-color: #5e6572; /* gray */
+ box-sizing: border-box;
+}
+#advertisement p{
+	font-size: 10pt;
+}
+#advertisement a{
+	color: #53c1c9;
+}
+h1 {
+	font-size: 1.7em;
+	font-weight: 600;
+ 	padding: 19px;
+	color: #c2d7eb;
+}
+#navigation a{
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 12pt;
+	color: #53c1c9;
+}
+#nav_menu li{
+	color: #b1cde0;
+	font-size: 8pt;
+	list-style-position: inside;
+}
+#nav_sub_menu {
+	padding-left: 20px;
+}
+.bullet_spacing{
+	margin-left: -5px; 
+}
